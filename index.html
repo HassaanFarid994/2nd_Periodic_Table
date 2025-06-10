@@ -9,21 +9,28 @@
 </head>
 
 <body>
-        <header id="period"><h1>Periodic Table</h1></header>
+    <header id="period">
+        <h1>Periodic Table</h1>
+    </header>
     <br /><br /><br />
 
     <table style="margin: auto;">
         <tr>
-            <th data-col="1" class="hidro" style="background:rgb(45, 202, 202); background: linear-gradient(45deg, rgb(45, 202, 202), rgb(45, 202, 202));">
+            <th data-col="1" class="hidro"
+                style="background:rgb(45, 202, 202); background: linear-gradient(45deg, rgb(45, 202, 202), rgb(45, 202, 202));">
                 <abbr title="Hydrogen">H</abbr>
             </th>
-            <th data-col="2" colspan="16" id="space" style="background:rgb(254, 255, 218); background: linear-gradient(45deg, rgb(254, 255, 218), rgb(254, 255, 218));"></th>
-            <th data-col="18" class="purple" style="background:#a36ffd; background: linear-gradient(45deg, #a36ffd, #a36ffd);">
+            <th data-col="2" colspan="16" id="space"
+                style="background:rgb(254, 255, 218); background: linear-gradient(45deg, rgb(254, 255, 218), rgb(254, 255, 218));">
+            </th>
+            <th data-col="18" class="purple"
+                style="background:#a36ffd; background: linear-gradient(45deg, #a36ffd, #a36ffd);">
                 <abbr title="Helium">He</abbr>
             </th>
         </tr>
         <tr>
-            <th class="yellow" style="background:rgb(210, 185, 44); background: linear-gradient(45deg, rgb(210, 185, 44), rgb(210, 185, 44));">
+            <th class="yellow"
+                style="background:rgb(210, 185, 44); background: linear-gradient(45deg, rgb(210, 185, 44), rgb(210, 185, 44));">
                 <abbr title="Lithium">Li</abbr>
             </th>
             <th class="orange" style="background:orange; background: linear-gradient(45deg,orange, orange);">
@@ -398,6 +405,20 @@
             </th>
         </tr>
     </table>
+
+    <p class="my-paragraph">
+        <button class="my-button" onclick="Has()"><b>Click</b></button>
+    </p>
+
+
+    <p class="my-paragraph">
+        <label for="feedback">Your Feedback:</label><br>
+        <textarea id="feedback" name="feedback" rows="5" cols="40" required></textarea><br><br>
+    </p>
+    <p class="Ma">
+        <button class="Majid" onclick="Maj()"><b>SUBMIT</b></button>
+    </p>
 </body>
+<script src="app.js"></script>
 
 </html>

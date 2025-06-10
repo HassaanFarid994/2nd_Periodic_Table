@@ -40,15 +40,16 @@ body {
     padding: 20px;
 }
 
+
 /* 
 
 #ptable{
     /* background-color: #9c1371; light blue */
 /* box-shadow: 0px 2px 4px 4px black;
-}
- */
+    }
+    */
 table {
-    
+
     /* border-collapse: collapse; */
     /* border-radius: 15px; */
     /* overflow: hidden; important for rounding to work */
@@ -73,9 +74,39 @@ table {
 
 /* .center-table tr:nth-child(even) {
     background-color: #f9f9f9;
-} */
+    } */
 
-abbr{
+
+.my-paragraph {
+    margin: 0px 1100px 0px 0px;
+    width: 100px;
+    height: 100px;
+    /* background-color: lightgray; */
+}
+
+.my-button {
+    font-size: 20px;
+    color: #fff;
+    background-color:#20ba01;
+    width: 100px;
+    height: 50px;
+}
+
+.Ma{
+    margin: 20px 1100px 0px 0px;
+    width: 0px;
+    height: 100px;
+}
+
+.Majid{
+    font-size: 20px;
+    color: #fff;
+    background-color: #1d65ff;
+    width: 100px;
+    height: 50px;
+}
+
+abbr {
     text-decoration: none;
 }
 
