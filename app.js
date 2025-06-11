@@ -1,10 +1,7 @@
 function Has(){
-    alert("Thankyou for The visiting My Periodic_Table")
-    alert("Give your feeback Thankyou")
+    alert("Thankyou For Visiting My Periodic Table")
+    alert("Give Your feedback")
 }
-
-
 function Maj(){
-    // alert("Thankyou for The visiting My Periodic_Table")
-    alert("Thankyou For Your Feedback")
+    alert("Thank For Your feedback")
 }
