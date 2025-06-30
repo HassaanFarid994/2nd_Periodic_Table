@@ -5,3 +5,4 @@ function Has(){
 function Maj(){
     alert("Thank For Your feedback")
 }
+

@@ -9,19 +9,9 @@ h1 {
     text-align: center;
 }
 
-/* #ahmed{
-
-    display: flex;
-    justify-items: center;
-    text-align: center;
-} */
-/* 
-#just{
-    display: flex;
-} */
-
-/* for elements color */
-
+.change{
+    margin-right: 100%;
+}
 
 .yellow {
     background-color: rgb(210, 185, 44);
